@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+if (!require('../require').try('typescript/built/local/tsc.js')) {
+  console.warn(`
+WARNING: "typescript/built/local/tsc.js" not found
+
+  » Falling back to "typescript/lib/tsc.js"
+  `.trim());
+
+  require('typescript/lib/tsc.js');
+}

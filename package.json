@@ -1,0 +1,30 @@
+{
+  "name": "typescript-local",
+  "version": "0.0.1",
+  "description": "Wrapper exposing typescript/built/local for experimental use",
+  "author": "Saleh Abdel Motaal <saleh@grasppe.com>",
+  "license": "MIT",
+  "keywords": [
+    "TypeScript",
+    "Microsoft",
+    "compiler",
+    "language",
+    "javascript",
+    "experimental"
+  ],
+  "main": "./lib/typescript.js",
+  "typings": "./lib/typescript.d.ts",
+  "bin": {
+    "tsc-local": "./bin/tsc",
+    "tsserver-local": "./bin/tsserver"
+  },
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "peerDependencies": {
+    "typescript": "smotaal/typescript"
+  },
+  "devDependencies": {
+    "@types/node": "*"
+  }
+}

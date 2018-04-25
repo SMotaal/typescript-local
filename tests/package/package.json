@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "@test/typescript-local",
+  "version": "0.0.1",
+  "description": "Wrapper exposing typescript/built/local for experimental use",
+  "author": "Saleh Abdel Motaal <saleh@grasppe.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p ."
+  }
+}
